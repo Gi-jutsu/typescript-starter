@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+  backend:
+    build:
+      dockerfile: ./docker/Dockerfile
+      context: ../
+    image: efrei/my-s3
+    container_name: my-s3
